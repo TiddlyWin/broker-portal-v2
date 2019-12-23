@@ -1,0 +1,22 @@
+{
+  "name": "broker-portal-v2",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.3.8",
+    "@nuxtjs/auth": "^4.8.4",
+    "@nuxtjs/axios": "^5.9.0",
+    "nuxt": "^2.11.0",
+    "reqlim": "^0.0.0"
+  },
+  "keywords": []
+}
